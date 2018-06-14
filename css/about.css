@@ -1,0 +1,41 @@
+#about {
+	padding: 0;
+}
+#about .row {
+	margin: 20px 0 40px 0;
+}
+#about .row .col-12 a {
+	background: #000;
+	display: flex;
+    align-items: center;
+    justify-content: center;}
+
+#about .row .col-12 a:hover > img {
+	opacity: .3;
+}
+#about .row .col-12 a:hover > p {
+	font-size: 400%;
+}
+
+#about .row .col-12 img {
+	display: block;
+	width: 100%;
+	height: auto;
+	opacity: .6;
+	transition: opacity .5s linear;
+}
+#about .row div:nth-child(2){
+	padding-right: 5px;
+}
+#about .row div:nth-child(3) {
+	padding-left: 5px;
+}
+#about .row .col-12 p {
+	color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    transition: all 1s;
+}

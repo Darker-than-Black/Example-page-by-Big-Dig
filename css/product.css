@@ -1,0 +1,46 @@
+#product .col-12 h3 {
+	font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #002258;
+}
+#product .row .col-md-4.col-sm-6 {
+	padding: 10px 0;
+	text-align: center;
+}
+#product .row .col-12 a {
+	position: relative;
+	display: inline-block;
+	background-color: #000;
+}
+#product .row .col-12 a:hover > p {
+	height: 100%;
+	color: #0070e9;
+	font-size: 18px;
+}
+#product .row .col-12 a img {
+	height: auto;
+	width: 100%;
+	display: block;
+	opacity: .7;
+}
+#product .row .col-12 p {
+	position: absolute;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: .75px;
+    background-color: rgba(0,0,0, .8);
+    height: 25%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 1s ease-out;
+}
